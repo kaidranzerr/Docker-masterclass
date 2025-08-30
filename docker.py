@@ -20,3 +20,12 @@
 # They consume more resources because they need to virtualize hardware, not just the app.
 #  Example, running the same 10 microservices in VMs will require significantly more memory and CPU because each VM has 
 # its own operating system.
+
+# dockerfile is used for creating packages 
+
+# Dockerfile. It is a text file with instructions on how to build a Docker image. 
+# It's a blueprint for the image, specifying the environment, app, and dependencies. Key components.
+# From. Specifies the base image. Copy or add. Adds files from your host system into the image. 
+# Run. Executes commands in the image, such as installing software. 
+# CMD or Entry Point. Defines the command that runs when the container starts. 
+# Expose. Specifies the port the container will listen on.
